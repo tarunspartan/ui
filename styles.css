@@ -14,8 +14,8 @@
 }
 .container .mob {
     position: relative;
-    height:  500px;
-    width: 250px;
+    height:  90%;
+    width: 90%;
     background-color: #f1f3f6;
     border-radius: 20px;
     box-shadow: 10px 10px 10px rgb(212, 211, 211);

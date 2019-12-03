@@ -1,9 +1,10 @@
 const clicked = (i) => {
     switch (i) {
         case 'wifi':
+            let WAelementToggle = document.getElementById('wifiactive');
             let WelementToggle = document.getElementById(`${i}`);
             let WelementIcon = document.getElementById('i'+`${i}`);
-            WelementToggle.classList.length == 2 ? WelementToggle.classList.remove('on') : WelementToggle.classList.add('on');
+            WelementToggle.classList.length == 2 ? WelementToggle.classList.remove('on') & WAelementToggle.classList.remove('wifiactive') : WelementToggle.classList.add('on') & WAelementToggle.classList.add('wifiactive');
             WelementIcon.classList.length ==3 ? WelementIcon.classList.remove(`${i}`) : WelementIcon.classList.add(`${i}`);
             break;
         case 'bluetooth':

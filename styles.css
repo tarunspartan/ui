@@ -190,7 +190,7 @@
     transform: translate(-50%,-50%);
     height: 95%;
     width: 95%;
-    overflow-x:scroll;
+    overflow-x:hidden;
     overflow-y: hidden; 
 }
 

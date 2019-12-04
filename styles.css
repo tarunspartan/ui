@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .container{
@@ -192,6 +193,7 @@
     width: 95%;
     overflow-x:scroll;
     overflow-y: hidden; 
+    scroll-behavior: smooth;
 }
 
 .container .mob .weather .cardholder::-webkit-scrollbar{

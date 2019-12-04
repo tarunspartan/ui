@@ -11,8 +11,15 @@
 <body>
     <div class="container">
         <div class="mob">
-            <div class="topbar"><div class="signal"></div><div class="signal2"></div><div id="wifiactive" class="wifiactive"></div><div class="battery"></div></div>
-            <div class="battery"></div>
+            <div class="topbar">
+                <div id="signal" class="signal"></div>
+                <div id="signal2" class="signal2"></div>
+                <div id="wifiactive" class="wifiactive"></div>
+                <div id="bluetoothactive" class=""></div>
+                <div id="airplaneactive" class=""></div>
+                <div id="locationactive" class=""></div>
+                <div class="battery"></div>
+            </div>
             <div class="toggles">
             <div onclick="clicked(id)" id="wifi" class="t on"><div id="iwifi" class="icon icon1 wifi"></div></div>
             <div onclick="clicked(id)" id="bluetooth" class="t"><div id="ibluetooth" class="icon icon2"></div></div>
@@ -20,7 +27,23 @@
             <div onclick="clicked(id)" id="rotation" class="t on"><div id="irotation" class="icon icon4 rotation"></div></div>
             <div onclick="clicked(id)" id="location" class="t"><div id="ilocation" class="icon icon5"></div></div>
             </div>
-            <div class="temp"><div class="one"><div class="two"><p>16<sup></sup>&#8451</p></div></div></div>
+            <div class="weather">
+                <div class="cardholder">
+                <div class="card one"><div class="content"><span>02/12</span><br>24&#8451</div><div class="icon"><img src="icons/weather/storm.svg"></div></div>
+                <div class="card two"><div class="content"><span>03/12</span><br>25&#8451</div><div class="icon"><img src="icons/weather/cloud.svg"></div></div>
+                <div class="card three"><div class="content"><span>04/12</span><br>27&#8451</div><div class="icon"><img src="icons/weather/cloudsun.svg"></div></div>
+                <div class="card four"><div class="content"><span>05/12</span><br>25&#8451</div><div class="icon"><img src="icons/weather/rainlow.svg"></div></div>
+                <div class="card five"><div class="content"><span>06/12</span><br>26&#8451</div><div class="icon"><img src="icons/weather/cloudsunrain.svg"></div></div>
+                <div class="card six"><div class="content"><span>07/12</span><br>24&#8451</div><div class="icon"><img src="icons/weather/storm.svg"></div></div>
+                <div class="card seven"><div class="content"><span>08/12</span><br>23&#8451</div><div class="icon"><img src="icons/weather/rainhigh.svg"></div></div>
+                <div class="card eight"><div class="content"><span>09/12</span><br>23&#8451</div><div class="icon"><img src="icons/weather/rainlow.svg"></div></div>
+                <div class="card nine"><div class="content"><span>10/12</span><br>27&#8451</div><div class="icon"><img src="icons/weather/cloudsunrain.svg"></div></div>
+                <div class="card ten"><div class="content"><span>11/12</span><br>27&#8451</div><div class="icon"><img src="icons/weather/cloudsun.svg"></div></div>
+                <div class="card eleven"><div class="content"><span>12/12</span><br>24&#8451</div><div class="icon"><img src="icons/weather/cloud.svg"></div></div>
+                <div class="card twelve"><div class="content"><span>13/12</span><br>25&#8451</div><div class="icon"><img src="icons/weather/cloud.svg"></div></div>
+            </div>
+            </div>
+            <!-- <div class="temp"><div class="one"><div class="two"><p>16<sup></sup>&#8451</p></div></div></div> -->
 
         </div>
     </div>

@@ -190,8 +190,12 @@
     transform: translate(-50%,-50%);
     height: 95%;
     width: 95%;
-    overflow-x:hidden;
+    overflow-x:scroll;
     overflow-y: hidden; 
+}
+
+.container .mob .weather .cardholder::-webkit-scrollbar{
+    display: none;
 }
 
 .container .mob .weather .cardholder .card{

@@ -178,7 +178,7 @@
     background-color: f1f3f6;
     margin: 20px auto ;
     border-radius: 10px;
-    box-shadow: 8px 8px 10px rgba(55, 84, 170, 0.1), -4px -4px 10px #ffffff, inset -2px -2px 10px rgba(255, 255, 255,0.5);
+    /* box-shadow: 8px 8px 10px rgba(55, 84, 170, 0.1), -4px -4px 10px #ffffff, inset -2px -2px 10px rgba(255, 255, 255,0.5); */
 }
 
 .container .mob .weather .cardholder{
@@ -223,7 +223,7 @@
 .container .mob .weather .cardholder .card .icon {
     position: absolute;
     left: 45%;
-    bottom: 20%;
+    bottom: 10%;
     width: 25px;
     height: 25px;
     border-radius: 3px;
@@ -276,7 +276,9 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    color: #6969ef;
-    font-size: 1.5em;
+    color: #6d6d74;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     opacity: 0.8;
 }

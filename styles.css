@@ -22,6 +22,10 @@
     box-shadow: 10px 10px 10px rgb(212, 211, 211);
 }
 
+@media only screen and (min-width: 770px){
+    .container .mob { width: 350px;}
+}
+
 .container .mob .topbar{
     display: flex;
     justify-content: flex-end;

@@ -123,6 +123,7 @@
     align-items: center;
     transition-duration: 500ms;
     transition-property: border-radius;
+    will-change: border-radius;
 }
 
 .container .mob  .toggles .on{
